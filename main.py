@@ -1,5 +1,4 @@
 import math
-import check
 def e_thresh(x: float, threshold: float) -> float:
     '''
     This function calculate e^x by using the sum of a series, with threshold is the epsilon value between the correct e^x with the sum of the series. The smaller the threshold, the more accurate the result.
